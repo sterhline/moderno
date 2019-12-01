@@ -1,10 +1,14 @@
-html{
-    box-sizing: border-box;
-}
-*, *::after, *::before{
-    box-sizing: inherit;
-}
-body{
-    background-color: #ccc;
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+.header__top-inner{
     display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+.header__text{
+    margin-left: auto;
+    margin-right: 25px;
 }
