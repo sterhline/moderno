@@ -38,8 +38,8 @@ li{
     }
 }
 .title{
-    color: $bg;
-    font-weight: 700;
+    @include f700;
+    color: $bg;    
     line-height: 60px;
     font-size: 36px;
     text-align: center;

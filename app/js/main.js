@@ -14,6 +14,7 @@ $(function(){
          arrows: false
          
       });
+      
     var mixer = mixitup('.products__inner-box');
     
 });
