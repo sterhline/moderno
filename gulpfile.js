@@ -38,7 +38,6 @@ gulp.task('style', function () {
         'node_modules/magnific-popup/dist/magnific-popup.css',
         'node_modules/rateyo/src/jquery.rateyo.css',
         'node_modules/ion-rangeslider/css/ion.rangeSlider.css'
-
     ])
         .pipe(concat('libs.min.css'))   
         .pipe(cssmin())    
