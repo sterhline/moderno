@@ -3,7 +3,9 @@
 @import 'fonts';
 
 // start header
-
+.header{
+    background-color: #fff;
+}
 .header__top-inner{
     display: flex;
     justify-content: space-between;
@@ -73,12 +75,12 @@
     align-items: center;
 }
 .header__btn-login--off{
-    display: none;
+    display: none;    
 }
 .header__btn-logout{
     display: none;
     &.header__btn-login--on{
-        display: block;
+        display: block;        
     }
 }
 .header__circle{    
@@ -113,7 +115,7 @@
     }
 }
 .user{
-    margin-left: 25px;
+    
     margin-right: 25px;
     padding-right: 20px;
     position: relative;
@@ -193,6 +195,7 @@
     height: 0;
     overflow: hidden;    
     transition: all .3s;
+    z-index: 1;
 }
 .basket__box,
 .message__box,
@@ -212,6 +215,9 @@
             color: $bg;
         }
     }   
+}
+.basket{
+    margin-right: 25px;
 }
 .message__menu,
 .notification__menu{
@@ -301,6 +307,10 @@
     background-color: #e85647; 
     width: 123px;
     margin-left: 6px;  
+}
+.header__btn-menu,
+.menu__btn{
+    display: none;
 }
 // end header
 
@@ -1162,3 +1172,6 @@ button.icon-unsorted{
         }
     }
 }
+
+
+@import 'media';
