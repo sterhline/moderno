@@ -1600,4 +1600,83 @@ background-image: url(../images/awards/awards-grey.png);
 }
 // end product-one
 
+// start eror-page
+
+.eror-page__wrapper{
+    border: 1px solid #dcdcdc; 
+    margin-bottom: 150px;
+}  
+.eror-page__head{
+    font-size: 24px;
+    color: #444;
+    padding: 23px 27px;
+    @include f500;
+    border-bottom: 1px solid #dcdcdc;
+     background-color: #fff;    
+}
+.eror-page__inner{    
+    background-color: $green;
+    color: #fff;
+}
+.eror-page__404-inner{
+    display: flex;
+    justify-content: center;
+}
+.eror-page__404{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300px;
+    font-weight: 800;    
+    padding-top: 70px;    
+    line-height: 300px;    
+    padding-bottom: 20px;   
+       
+}
+.eror-page__404-images{    
+    width: 150px;
+    height: 292px;
+    margin-left: 20px;
+    margin-top: 60px;
+    z-index: 1;  
+    position: relative;         
+        &::after{
+            position: absolute;
+            content: '';
+            background-image: url(../images/eror-page-img2.png);
+            width: 157px;
+            height: 20px;                   
+            bottom: -8px;   
+            z-index: -1;   
+            right: 0;
+            left: 0;      
+        }
+}
+.eror-page__title{
+    text-align: center;
+    font-size: 30px;   
+    margin-bottom: 30px;
+}
+.eror-page__text{
+    text-align: center;
+    font-size: 18px;          
+    padding-bottom: 55px;
+    max-width: 501px;
+    margin: 0 auto; 
+}
+.eror-page__link{
+    text-align: center;
+    a{              
+        font-size: 14px;
+        @include f700;    
+        border-radius: 4px;
+        border: 2px solid #fff;
+        padding: 19px 35px;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+        color: #fff;
+    }   
+}
+// end eror-page
+
+
+
 @import 'media';
