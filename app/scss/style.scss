@@ -1677,6 +1677,30 @@ background-image: url(../images/awards/awards-grey.png);
 }
 // end eror-page
 
+// start abuot-page
 
-
+.page-about__inner{
+    background-color: #fff;
+    border: 1px solid #dcdcdc; 
+    padding-bottom: 55px;
+    margin-bottom: 150px;  
+}
+.page-about__head{
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 24px;
+    color: $bg;
+    padding: 20px 30px;
+    @include f700;
+}
+.page-about__title{
+    @include f700;
+    font-size: 20px;
+    padding: 40px 0 20px 47px;
+    
+}
+.page-about__text{
+    padding-left: 47px;
+    padding-right: 65px;
+}
+// end abuot-page
 @import 'media';
